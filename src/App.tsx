@@ -1,5 +1,5 @@
 import React, { useState, useEffect, createContext, useContext } from 'react';
-import { Shield, LayoutDashboard, FileText, BarChart3, Key, Settings, Users, LogOut, Eye, Copy, AlertCircle, Loader2, Plus, Download, ExternalLink } from 'lucide-react';
+import { Shield, LayoutDashboard, FileText, BarChart3, Key, Settings, Users, LogOut, Eye, Copy, AlertCircle, Loader2, Plus, ExternalLink } from 'lucide-react';
 
 // API Configuration
 const API_BASE_URL = process.env.VITE_API_URL || 'https://accessmatic-backend-production.up.railway.app';
