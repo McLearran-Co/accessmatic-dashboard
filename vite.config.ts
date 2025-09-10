@@ -7,6 +7,6 @@ export default defineConfig({
     outDir: 'dist'
   },
   define: {
-    'process.env.VITE_API_URL': JSON.stringify('https://accessmatic-backend-production.up.railway.app')
+    'import.meta.env.VITE_API_URL': JSON.stringify('https://accessmatic-backend-production.up.railway.app')
   }
 })
